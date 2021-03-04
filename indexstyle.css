@@ -1,0 +1,148 @@
+*
+{
+    color: black;
+}
+.hero
+{
+    background-image: linear-gradient(to right, rgba(54, 53, 47, 0.52), rgba(51, 48, 50, 0.73)),
+    url('./bg.jpg');
+    min-height: 500px;
+    width: 1800;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.heading
+{
+    color: white;
+    font-size: 80px;
+    margin-left: 500px;
+    font-weight: 900;
+    margin-top: 180px;
+    position: absolute;
+}
+
+.modal
+{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+
+  .modal-content
+  {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border:none;
+    width:600px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  @-webkit-keyframes animatetop
+  {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop
+  {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  
+  .close
+  {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-header
+  {
+    padding: 2px 16px;
+    background-color:darkgreen;
+    color: white;
+  }
+  
+  .modal-body
+  {
+    padding: 2px 16px;
+    }
+.fa
+{
+    padding: 5px;
+    font-size: 18px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa-facebook:hover
+{
+    background-color: white;
+    color: blue;
+    text-decoration: none;
+}
+
+.fa-youtube:hover
+{
+    background-color: white;
+    color: red;
+    text-decoration: none;
+}
+
+.fa-instagram:hover
+{
+    background-color: white;
+    color:coral;
+    text-decoration: none;
+}
+
+.fa-twitter:hover
+{
+    background-color: white;
+    color:cornflowerblue;
+    text-decoration: none;
+}
+
+.fa-linkedin:hover
+{
+    background-color: white;
+    color:navy;
+    text-decoration: none;
+}
+  
+  .fa-facebook,.fa-twitter,.fa-linkedin,.fa-youtube,.fa-instagram{
+    background: white;
+    color: black;
+  }
+  
+  
